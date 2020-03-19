@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">-->
+<users>
+    <user>
+        <username>
+            <firstname>Phuong</firstname>
+            <middlename>Viet</middlename>
+            <lastname>Tran</lastname>
+        </username>
+        <phonenumber>647-246-8101</phonenumber>
+        <email>paultran0307@gmail.com</email>
+        <id>c01357911</id>
+        <password>1234</password>
+    </user>
+    <user>
+        <username>
+            <firstname>Paul</firstname>
+            <lastname>Tran</lastname>
+        </username>
+        <phonenumber>647-246-8102</phonenumber>
+        <email>paultran0307@gmail.com</email>
+        <id>c01357912</id>
+        <password>abcd</password>
+    </user>
+    <user>
+        <username>
+            <firstname>Ngoc</firstname>
+            <middlename>Bao</middlename>
+            <lastname>Huynh</lastname>
+        </username>
+        <level>Junior</level>
+        <email>staff@hotmail.com</email>
+        <id>s02468010</id>
+        <password>admin</password>
+    </user>
+    <user>
+        <username>
+            <firstname>Lisa</firstname>
+            <lastname>Huynh</lastname>
+        </username>
+        <level>Intern</level>
+        <email>staff@hotmail.com</email>
+        <id>s02468011</id>
+        <password>admin</password>
+    </user>
+    <user>
+        <username>
+            <firstname>Sam</firstname>
+            <lastname>Smith</lastname>
+        </username>
+        <level>High Senior</level>
+        <email>admin@hotmail.com</email>
+        <id>a01234567</id>
+        <password>admin</password>
+    </user>
+</users>

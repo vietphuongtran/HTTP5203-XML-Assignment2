@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">-->
+<tickets>
+    <ticket>
+        <ticketid>t123456</ticketid>
+        <issuedate>16/01/2020</issuedate>
+        <subject task="Repair">Repairing the server connection</subject>
+        <messages urgent="yes">
+            <message from="client" date="16/01/2020" >
+                The server has unstable connection. We can not post articles. Please repair it asap.
+            </message>
+            <message from="staff" date="17/01/2020">
+                We are reseting the server. The wifi will return to its normal speed in 30 minutes.
+            </message>
+            <message from="staff" date="17/01/2020">
+                We have finished the reset. How is your website connection now?
+            </message>
+            <message from="client" date="17/01/2020" >
+                The connection is normal now. Thank you.
+            </message>
+        </messages>
+        <userids>
+            <userid from="client">c01357911</userid> 
+            <userid from="staff">s02468010</userid>
+        </userids>
+        <status>Resolved</status>
+    </ticket>
+    <ticket>
+        <ticketid>t123457</ticketid>
+        <issuedate>29/02/2020</issuedate>
+        <subject task="Install">Installing softwares on new purchased laptops</subject>
+        <messages urgent="no">
+                <message from="client" date="29/02/2020" >
+                    We need to install company software on 20 new laptops.
+                </message>
+                <message from="staff" date="29/02/2020">
+                    We are dispatching a team to complete the task. Estimated completion time: 8 hours.
+                </message>
+            </messages>
+            <userids>
+                <userid from="client">c01357912</userid> 
+                <userid from="staff">a01234567</userid>
+            </userids>
+            <status>Ongoing</status>
+    </ticket>
+    <ticket>
+        <ticketid>t123458</ticketid>
+        <issuedate>29/03/2020</issuedate>
+        <subject task="Purchase">Purchase new equipments for the new office</subject>
+        <messages  urgent="no">
+                <message from="client" date="29/03/2020" >
+                    We need to purchase 30 new laptops for our new office headquarter. Please suggest us some models and price
+                </message>
+                <message from="staff" date="29/03/2020">
+                    Currently, we have Dell Inspiron and ASUS Zenbook in stock. The Dell worths $500 and ASUS price is $600 but you will get a discount of 5%.
+                </message>
+                <message from="client" date="29/03/2020">
+                    We will buy the ASUS. Please deliver to our new office.
+                </message>
+                <message from="staff" date="30/03/2020">
+                    We have finished the delivery. Is there anything we can do to help you?
+                </message>
+                <message from="staff" date="30/03/2020">
+                    That will be all. Thank you.
+                </message>
+            </messages>
+            <userids>
+                <userid from="client">c01357912</userid> 
+                <userid from="staff">s02468011</userid>
+            </userids>
+            <status>Resolved</status>
+    </ticket>
+</tickets>
