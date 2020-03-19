@@ -4,6 +4,7 @@ $xml = new DOMDocument("1.0", "UTF-8");
 //load the xml doc
 $xml = simplexml_load_file("users.xml");
 $users = $xml->user;
+//This line is supposed to grab all the passwords and ids but it just grab the first password and id of the first user
 $password = $users->password;
 $id = $users->id;
 
