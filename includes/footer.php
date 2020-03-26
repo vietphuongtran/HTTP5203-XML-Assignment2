@@ -1,0 +1,5 @@
+<footer>
+    <?php
+    navigation();
+    ?>
+</footer>

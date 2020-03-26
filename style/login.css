@@ -1,3 +1,5 @@
+/*1: Login page */
+/*Container*/
 .container {
     width: 100%;
     min-height: 80vh;
@@ -9,12 +11,13 @@
 }
 .formcontainer {
     width: 390px;
-    background: #FFE;
+    background: #F4CF5D;
     border-radius: 30px;
     overflow: hidden;
     padding: 50px 55px 33px 55px;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
+/*input*/
 .inputfield {
     width: 100%;
     position: relative;
@@ -49,7 +52,7 @@
     height: 50px;
     margin: 1em;
 }
-
+/*Ticket listing and single ticket page*/
 .ticketpreview {
     margin: 0.5em;
 }
@@ -70,4 +73,7 @@
 }
 img {
     width: 30%;
+}
+h1, h2, #logout {
+    text-align: center;
 }

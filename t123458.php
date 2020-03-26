@@ -11,13 +11,16 @@ $messages = $tickets[2]->messages->message;
         <meta charset="UTF-8">
         <title>Ticket Detail Page</title>
         <link rel="stylesheet" type="text/css" href="style/login.css">
+        <link rel="stylesheet" type="text/css" href="style/header.css">
     </head>
     <body>
         <h2>Ticket Detail</h2>
+        <? include "includes/header.php" ?>
         <div><?=$tickets[2]->subject ?></div>
         <div><?=$tickets[2]->ticketid ?> <?=$tickets[2]->issuedate ?></div>
         <?
         include 'ticketdetail.php'
         ?>
+        <? include "includes/footer.php" ?>
     </body>
 </html>

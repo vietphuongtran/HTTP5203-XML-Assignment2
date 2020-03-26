@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59a66aef-65f6-4f01-90e9-3f882d495213" name="Default Changelist" comment="" />
+    <list default="true" id="59a66aef-65f6-4f01-90e9-3f882d495213" name="Default Changelist" comment="login function complete">
+      <change afterPath="$PROJECT_DIR$/clientticket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hotline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listingpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/allticket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/listing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t123456.php" beforeDir="false" afterPath="$PROJECT_DIR$/t123456.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t123457.php" beforeDir="false" afterPath="$PROJECT_DIR$/t123457.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t123458.php" beforeDir="false" afterPath="$PROJECT_DIR$/t123458.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketdetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/ticketdetail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="dae02b06-fcbf-4e85-bf96-bf436f394bbc" name="localhost" />
@@ -37,12 +54,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\XML\Assignment2\image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\XML\Assignment2\image" />
+      <recent name="C:\MAMP\htdocs\XML\Assignment2\includes" />
       <recent name="C:\MAMP\htdocs\XML\Assignment2" />
       <recent name="C:\MAMP\htdocs\XML\Assignment2\users" />
       <recent name="C:\MAMP\htdocs\XML\Assignment2\style" />
@@ -94,85 +117,122 @@
       <workItem from="1584573047477" duration="6070000" />
       <workItem from="1584580938651" duration="139000" />
       <workItem from="1584581264309" duration="1445000" />
+      <workItem from="1584711047441" duration="4607000" />
+      <workItem from="1584727727174" duration="4081000" />
+      <workItem from="1584732400756" duration="6102000" />
+      <workItem from="1584746870405" duration="5172000" />
+      <workItem from="1584752336522" duration="377000" />
+      <workItem from="1584817854254" duration="1177000" />
+      <workItem from="1584819051778" duration="628000" />
+      <workItem from="1584819696387" duration="4059000" />
+      <workItem from="1584825968637" duration="362000" />
+      <workItem from="1584885325934" duration="622000" />
+      <workItem from="1585094330708" duration="4259000" />
+      <workItem from="1585248334477" duration="7961000" />
+      <workItem from="1585259051976" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login function complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="login function complete" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="492" y="19" key="#PHP" timestamp="1584461360564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="492" y="19" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1584461360564" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1584479637322">
+    <state x="406" y="12" key="CommitChangelistDialog2" timestamp="1584751867935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584479637322" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1584582707652">
+    <state x="406" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584751867935" />
+    <state width="411" height="458" key="DebuggerActiveHint" timestamp="1584731915794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584582707652" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1584582707652">
+    <state width="411" height="458" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584731915794" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1585252886940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584582707652" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1584582707652">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585252886940" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1585259030185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584582707652" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1584582707652">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585259030185" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1585259030182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584582707652" />
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1584582707653">
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585259030182" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1585259030181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584582707653" />
-    <state width="1493" height="263" key="GridCell.Tab.1.center" timestamp="1584582707653">
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585259030181" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1585259030185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584582707653" />
-    <state width="1493" height="263" key="GridCell.Tab.1.left" timestamp="1584582707652">
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585259030185" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1585259030186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584582707652" />
-    <state width="1493" height="263" key="GridCell.Tab.1.right" timestamp="1584582707653">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585259030186" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1585259030186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584582707653" />
-    <state width="1493" height="263" key="GridCell.Tab.2.bottom" timestamp="1584582707657">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585259030186" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1585259030185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584582707657" />
-    <state width="1493" height="263" key="GridCell.Tab.2.center" timestamp="1584582707656">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585259030185" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1585259030186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584582707656" />
-    <state width="1493" height="263" key="GridCell.Tab.2.left" timestamp="1584582707655">
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585259030186" />
+    <state width="1493" height="265" key="GridCell.Tab.2.bottom" timestamp="1585259030188">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584582707655" />
-    <state width="1493" height="263" key="GridCell.Tab.2.right" timestamp="1584582707657">
+    <state width="1493" height="265" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585259030188" />
+    <state width="1493" height="265" key="GridCell.Tab.2.center" timestamp="1585259030187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584582707657" />
-    <state x="604" y="345" key="NewPhpFileDialog" timestamp="1584574809423">
+    <state width="1493" height="265" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1585259030187" />
+    <state width="1493" height="265" key="GridCell.Tab.2.left" timestamp="1585259030186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="345" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1584574809423" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1584624011439">
+    <state width="1493" height="265" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1585259030186" />
+    <state width="1493" height="265" key="GridCell.Tab.2.right" timestamp="1585259030187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584624011439" />
+    <state width="1493" height="265" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1585259030187" />
+    <state x="604" y="345" key="NewPhpFileDialog" timestamp="1585254121194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="345" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585254121194" />
+    <state x="599" y="208" key="PhpDebugProjectChooserDialog" timestamp="1585095426403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="208" key="PhpDebugProjectChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1585095426403" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1585248367145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585248367145" />
+    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584751871541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="580" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584751871541" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584751590029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584751590029" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/login.php</url>
-          <line>13</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/ticketdetail.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

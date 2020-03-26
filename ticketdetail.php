@@ -1,4 +1,18 @@
-
+<?php
+    $mess = "";
+    $xml = new DOMDocument("1.0", "UTF-8");
+    //load the xml doc
+    $xml->preserveWhiteSpace = false;
+    $xml->formatOutput = true;
+    if (isset($_POST['submit'])) {
+        $newMess = $_POST['message'];
+        $xml = new DOMDocument("1.0", "UTF8");
+        $messageParent = $tickets[0]->messages;
+        $messageChild = $xml->createElement("message", $newMess);
+        $messageParent->appendChild($messageChild);
+        ('tickets.xml');
+    }
+?>
 <? foreach ($messages as $m)  { ?>
     <div class="msgcontainer">
         <div class="sender">
@@ -9,9 +23,8 @@
     </div>
 <? } ?>
 <div>
-    <form>
-        <textarea>Please enter your message:</textarea>
-        <input type="submit" value="Submit" />
-        <!--How can the form send datetime and user information to the xml-->
+    <form method="POST" action ="">
+        <textarea name="message">Please enter your message:</textarea>
+        <input type="submit" value="Submit" name ="submit" />
     </form>
 </div>
