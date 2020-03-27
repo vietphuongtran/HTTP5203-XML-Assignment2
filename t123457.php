@@ -8,14 +8,16 @@ $messInsert = $tickets[1]->messages;
 if (isset($_POST['submit'])) {
     $newMess = $_POST['message'];
     $newMsgXML = $messInsert->addChild('message', $newMess);
-    $clientid = "/^(c|C|s|S)\d{8}$/";
-    //if the user is a client (id c....) or a supporting technician (id s...) go to the page which ONLY contains that client's or supporting technician's ticket
+    $clientid = "/^(c|C)\d{8}$/";
+    //if the user is a client (id c....) then echo from client otherwise echo from staff
     if (preg_match($clientid, $_SESSION['id'])) {
         $newMsgXML->addAttribute('from', 'client');
     }
     else {
         $newMsgXML->addAttribute('from', 'staff');
     }
+    //add today date
+    $newMsgXML->addAttribute('date', date("d/m/Y"));
     $xml->saveXML("tickets.xml");
 }
 ?>

@@ -1,5 +1,12 @@
 /*1: Login page */
 /*Container*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lato&display=swap');
+html {
+    font-family: Comfortaa;
+}
+h1, h2, h3 {
+    font-family: Lato;
+}
 .container {
     width: 100%;
     min-height: 80vh;
@@ -54,9 +61,11 @@
 }
 /*Ticket listing and single ticket page*/
 .ticketpreview {
+    margin: 1em;
+}
+.ticketpreview div {
     margin: 0.5em;
 }
-
 .msgcontainer {
     display: flex;
     flex-flow: row wrap;
