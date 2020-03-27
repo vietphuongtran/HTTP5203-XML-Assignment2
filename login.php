@@ -14,6 +14,7 @@
 //        solution1: store the hash value of password in the XML - not working
 //        $passhash = password_hash($xml->xpath("//users/user[0]/password"), PASSWORD_DEFAULT);
         //finding the node which has both the id and password match with the user input.
+        // this code is from StackOverFlow, used by Paul Tran for academic purpose
         $login = $xml->xpath("//users/user[./id = '{$userid}'][./password = '{$userpass}']");
         //if it match, then create the session
         if(count($login))
