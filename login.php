@@ -76,7 +76,7 @@
                 <div>
                     <?=$invalid?>
                 </div>
-                <div id="buttoncontainer" class="buttoncont">
+                <div class="buttoncont">
                     <button type="submit" name="submit" id="loginbutton" class="button">Login</button>
                 </div>
             </form>

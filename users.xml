@@ -10,7 +10,7 @@
         <phonenumber>647-246-8101</phonenumber>
         <email>paultran0307@gmail.com</email>
         <id>c01357911</id>
-        <password>1234</password>  <!-- hash value of password: 1234 -->
+        <password>1234</password>
     </user>
     <user>
         <username>
@@ -20,7 +20,7 @@
         <phonenumber>647-246-8102</phonenumber>
         <email>paultran0307@gmail.com</email>
         <id>c01357912</id>
-        <password>abcd</password> <!-- hash value of password: abcd -->
+        <password>abcd</password>
     </user>
     <user>
         <username>
@@ -31,7 +31,7 @@
         <level>Junior</level>
         <email>staff@hotmail.com</email>
         <id>s02468010</id>
-        <password>admin</password> <!--hash value of password:admin-->
+        <password>admin</password>
     </user>
     <user>
         <username>
@@ -41,7 +41,7 @@
         <level>Intern</level>
         <email>staff@hotmail.com</email>
         <id>s02468011</id>
-        <password>admin</password> <!--hash value of password:admin-->
+        <password>admin</password>
     </user>
     <user>
         <username>
@@ -51,7 +51,7 @@
         <level>High Senior</level>
         <email>admin@hotmail.com</email>
         <id>a01234567</id>
-        <password>admin</password> <!--hash value of password:admin-->
+        <password>admin</password>
 
     </user>
 </users>

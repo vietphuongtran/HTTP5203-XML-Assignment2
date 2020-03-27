@@ -3,7 +3,22 @@ $xml = new DOMDocument("1.0", "UTF-8");
 //load the xml doc
 $xml = simplexml_load_file("tickets.xml");
 $tickets = $xml->ticket;
+//This depends on postion -> improvement: come up with a more efficient way
 $messages = $tickets[2]->messages->message;
+$messInsert = $tickets[2]->messages;
+if (isset($_POST['submit'])) {
+    $newMess = $_POST['message'];
+    $newMsgXML = $messInsert->addChild('message', $newMess);
+    $clientid = "/^(c|C|s|S)\d{8}$/";
+    //if the user is a client (id c....) or a supporting technician (id s...) go to the page which ONLY contains that client's or supporting technician's ticket
+    if (preg_match($clientid, $_SESSION['id'])) {
+        $newMsgXML->addAttribute('from', 'client');
+    }
+    else {
+        $newMsgXML->addAttribute('from', 'staff');
+    }
+    $xml->saveXML("tickets.xml");
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,10 +29,12 @@ $messages = $tickets[2]->messages->message;
         <link rel="stylesheet" type="text/css" href="style/header.css">
     </head>
     <body>
-        <h2>Ticket Detail</h2>
         <? include "includes/header.php" ?>
-        <div><?=$tickets[2]->subject ?></div>
-        <div><?=$tickets[2]->ticketid ?> <?=$tickets[2]->issuedate ?></div>
+        <h2>Ticket Detail</h2>
+        <div class="subject">
+            <h2><?=$tickets[2]->subject ?></h2>
+            <div><?=$tickets[2]->ticketid ?> <?=$tickets[2]->issuedate ?></div>
+        </div>
         <?
         include 'ticketdetail.php'
         ?>

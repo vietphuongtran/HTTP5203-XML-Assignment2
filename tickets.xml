@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">-->
 <tickets>
     <ticket>
         <ticketid>t123456</ticketid>
         <issuedate>16/01/2020</issuedate>
         <subject task="Repair">Repairing the server connection</subject>
-        <messages urgent="yes">
-            <message from="client" date="16/01/2020" >
+        <messages urgent="yes" from="staff">
+            <message from="client" date="16/01/2020">
                 The server has unstable connection. We can not post articles. Please repair it asap.
             </message>
             <message from="staff" date="17/01/2020">
@@ -15,10 +15,10 @@
             <message from="staff" date="17/01/2020">
                 We have finished the reset. How is your website connection now?
             </message>
-            <message from="client" date="17/01/2020" >
+            <message from="client" date="17/01/2020">
                 The connection is normal now. Thank you.
             </message>
-        </messages>
+        <message from="client">testing 2</message><message from="client">testing 3</message><message from="staff">hello testing 3</message></messages>
         <userids>
             <userid from="client">c01357911</userid> 
             <userid from="staff">s02468010</userid>
@@ -30,13 +30,13 @@
         <issuedate>29/02/2020</issuedate>
         <subject task="Install">Installing softwares on new purchased laptops</subject>
         <messages urgent="no">
-                <message from="client" date="29/02/2020" >
+                <message from="client" date="29/02/2020">
                     We need to install company software on 20 new laptops.
                 </message>
                 <message from="staff" date="29/02/2020">
                     We are dispatching a team to complete the task. Estimated completion time: 8 hours.
                 </message>
-            </messages>
+         </messages>
             <userids>
                 <userid from="client">c01357912</userid> 
                 <userid from="staff">a01234567</userid>
@@ -47,8 +47,8 @@
         <ticketid>t123458</ticketid>
         <issuedate>29/03/2020</issuedate>
         <subject task="Purchase">Purchase new equipments for the new office</subject>
-        <messages  urgent="no">
-                <message from="client" date="29/03/2020" >
+        <messages urgent="no">
+                <message from="client" date="29/03/2020">
                     We need to purchase 30 new laptops for our new office headquarter. Please suggest us some models and price
                 </message>
                 <message from="staff" date="29/03/2020">

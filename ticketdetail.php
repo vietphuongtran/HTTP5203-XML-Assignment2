@@ -4,27 +4,24 @@
     //load the xml doc
     $xml->preserveWhiteSpace = false;
     $xml->formatOutput = true;
-    if (isset($_POST['submit'])) {
-        $newMess = $_POST['message'];
-        $xml = new DOMDocument("1.0", "UTF8");
-        $messageParent = $tickets[0]->messages;
-        $messageChild = $xml->createElement("message", $newMess);
-        $messageParent->appendChild($messageChild);
-        ('tickets.xml');
-    }
+
 ?>
 <? foreach ($messages as $m)  { ?>
     <div class="msgcontainer">
         <div class="sender">
             <div><img src="image/blank-profile-picture.png" alt="A blank profile picture"/></div>
-            <div><?=$m['from']?></div>
+            <div class="from"><?=$m['from']?></div>
         </div>
         <div class="message"><?=$m?></div>
     </div>
 <? } ?>
 <div>
     <form method="POST" action ="">
-        <textarea name="message">Please enter your message:</textarea>
-        <input type="submit" value="Submit" name ="submit" />
+        <div class="buttoncont">
+            <textarea class="textareafield" name="message" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="buttoncont">
+            <button type="submit" name="submit" id="submitbutton" class="button">Submit</button>
+        </div>
     </form>
 </div>

@@ -34,12 +34,12 @@
     background: transparent;
 }
 /*Button*/
-#buttoncontainer {
+.buttoncont {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-#loginbutton {
+.button {
     font-size: 1em;
     color: #000;
     line-height: 1.2;
@@ -65,7 +65,11 @@
 }
 .sender {
     flex: 1 0 0;
-    text-align: center;
+    text-align: right;
+    margin: 0 2em 1em auto;
+}
+.from {
+    padding-right: 3.5em;
 }
 .message {
     flex: 2 0 0;
@@ -76,4 +80,17 @@ img {
 }
 h1, h2, #logout {
     text-align: center;
+}
+#submitbutton {
+    width: 20%;
+    background: #F4CF5D;
+}
+.textareafield {
+    text-align: center;
+    width: 60%;
+    height: 5em;
+}
+.subject {
+    text-align: center;
+    margin-bottom: 1em;
 }
